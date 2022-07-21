@@ -1,10 +1,12 @@
 import React from "react";
+import NewProjectForm from "../Components/NewProjectForm";
 import ProjectBody from "../Components/ProjectBody";
 
 const Dashboard = () => {
   return (
     <div>
-      <ProjectBody />
+      {/* <ProjectBody /> */}
+      <NewProjectForm/>
     </div>
   );
 };
