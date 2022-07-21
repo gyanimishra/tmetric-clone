@@ -15,59 +15,70 @@ const ProjectBody = () => {
     { name: "masai4", status: true, code: "lms5", team: "no team" },
   ];
   return (
-    <div>
-      <div>
-        <div>
+    <div className={styles.main_container}>
+      <div className={styles.container}>
+        <div className={styles.project_title}>
           <h2>Projects</h2>
         </div>
-        <div>
-          <select>
-            <option>Client: All</option>
-          </select>
-          <select>
-            <option>Status: Active and Done</option>
-            <option>Active and Done </option>
-            <option>Active</option>
-            <option>Done</option>
-          </select>
-          <select>
-            <option>Billing: Any</option>
-            <option>Non-Billable</option>
-            <option>Time & Materials</option>
-          </select>
-          <select>
-            <option>Budget: Any</option>
-            <option>Yes</option>
-            <option>No</option>
-          </select>
+        <div className={styles.filter_container}>
+          <div>
+            <select>
+              <option>Client: All</option>
+        
+            </select>
+          </div>
+          <div>
+            <select>
+              <option>Status: Active and Done</option>
+              <option>Active and Done </option>
+              <option>Active</option>
+              <option>Done</option>
+            </select>
+          </div>
+
+          <div>
+            <select>
+              <option>Billing: Any</option>
+              <option>Non-Billable</option>
+              <option>Time & Materials</option>
+            </select>
+          </div>
+          <div>
+            <select>
+              <option>Budget: Any</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div className={styles.content_container}>
+          <div className={styles.content_top_div}>
+            <div className={styles.content_top_div_left_div}>
               <div>
-                <button> +New Project</button>
+                <button> + New Project</button>
               </div>
-              <div>
+              <div className={styles.toggle_div}>
                 <input
                   type="checkbox"
                   id="switch"
                   className={styles.checkbox}
                 />
                 <label htmlFor="switch" className={styles.toggle}></label>
+                <p>Group by client</p>
               </div>
             </div>
-            <div>
+            <div className={styles.content_top_div_right_div}>
               <div>
-                <h4>no. of project </h4>
+                <h4>{arr.length} Projects </h4>
               </div>
-              <div>
+              <div className={styles.content_top_div_right_div_input} >
                 <IoIosSearch />
-                <input type="text" />
+                <input type="text"  placeholder="Search"/>
               </div>
             </div>
           </div>
-          <div>
+          <div className={styles.content_header_div}>
             <div>
               <input type="checkbox" name="" id="" />
               <TiArrowUp />
@@ -81,7 +92,7 @@ const ProjectBody = () => {
               <p>TEAM</p>
             </div>
           </div>
-          <div>
+          <div className={styles.content_summury_div}>
             <div>
               <input type="checkbox" name="" id="" />
               <MdKeyboardArrowDown />
@@ -89,7 +100,7 @@ const ProjectBody = () => {
             </div>
           </div>
           {arr.map((el, index) => (
-            <div key={index}>
+            <div key={index} className={styles.project_div}>
               <div>
                 <input type="checkbox" name="" id="" />
                 <RiFolderOpenFill />
