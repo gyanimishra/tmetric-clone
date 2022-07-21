@@ -1,19 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/projectbody.module.css";
 import { IoIosSearch } from "react-icons/io";
 import { TiArrowUp } from "react-icons/ti";
 import { TiArrowUnsorted } from "react-icons/ti";
-import { MdKeyboardArrowDown } from "react-icons/md";
 import { RiFolderOpenFill } from "react-icons/ri";
+import { FiMoreHorizontal } from "react-icons/fi";
 
 const ProjectBody = () => {
   let arr = [
     { name: "masai", status: true, code: "lms1", team: "no team" },
     { name: "masai1", status: false, code: "lms2", team: "no team" },
-    { name: "masai2", status: true, code: "lms3", team: "no team" },
+    { name: "m2", status: true, code: "lms3", team: "no team" },
     { name: "masai3", status: false, code: "lms4", team: "no team" },
     { name: "masai4", status: true, code: "lms5", team: "no team" },
   ];
+  const [text, setText] = useState("");
+  let newArray = arr.filter((el) => {
+    if (el.name.toLowerCase().includes(text.toLowerCase())) {
+      return el;
+    }
+  });
+  const handleChnage = (e) => {
+    setText(e.target.value);
+    newArray = arr.filter((el) => {
+      if (el.name.toLowerCase().includes(text.toLowerCase())) {
+        return el;
+      }
+    });
+  };
+
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
@@ -24,7 +39,6 @@ const ProjectBody = () => {
           <div>
             <select>
               <option>Client: All</option>
-        
             </select>
           </div>
           <div>
@@ -70,17 +84,21 @@ const ProjectBody = () => {
             </div>
             <div className={styles.content_top_div_right_div}>
               <div>
-                <h4>{arr.length} Projects </h4>
+                <h4>{newArray.length} Projects </h4>
               </div>
-              <div className={styles.content_top_div_right_div_input} >
+              <div className={styles.content_top_div_right_div_input}>
                 <IoIosSearch />
-                <input type="text"  placeholder="Search"/>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  onChange={handleChnage}
+                />
               </div>
             </div>
           </div>
           <div className={styles.content_header_div}>
             <div>
-              <input type="checkbox" name="" id="" />
+              <input type="checkbox" />
               <TiArrowUp />
               <p>PROJECT</p>
             </div>
@@ -91,30 +109,29 @@ const ProjectBody = () => {
             <div>
               <p>TEAM</p>
             </div>
+            <div></div>
           </div>
-          <div className={styles.content_summury_div}>
-            <div>
-              <input type="checkbox" name="" id="" />
-              <MdKeyboardArrowDown />
-              <h5>No client(no. of project)</h5>
-            </div>
-          </div>
-          {arr.map((el, index) => (
+          {newArray.map((el, index) => (
             <div key={index} className={styles.project_div}>
-              <div>
-                <input type="checkbox" name="" id="" />
-                <RiFolderOpenFill />
+              <div className={styles.project_div_first}>
+                <input type="checkbox" />
+                <div className={styles.folder_logo}>
+                  <RiFolderOpenFill />
+                </div>
                 <p>{el.name}</p>
-                {el.status && <span>done</span>}
+
+                {el.status && (
+                  <span className={styles.project_div_status}>done</span>
+                )}
               </div>
               <div>
                 <p>{el.code}</p>
               </div>
-              <div>
+              <div className={styles.project_div_noteam}>
                 <p>No team</p>
               </div>
               <div>
-                <h2>...</h2>
+                <FiMoreHorizontal />
               </div>
             </div>
           ))}
