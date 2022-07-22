@@ -53,6 +53,7 @@
 
 .form_top_div * {
     font-weight: 350;
+    cursor: pointer;
 }
 
 .form_content_div {
@@ -127,4 +128,104 @@
 
 .projectprInput {
     width: 20vw
+}
+
+.form_content_data_div2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.form_content_data_div2 input {
+    font-size: 1vw;
+    padding: 5px 8px;
+    border-radius: 5px;
+    outline: none;
+    color: var(--textColor);
+    border: 1px solid rgb(187, 167, 167);
+    width: 20vw;
+    cursor: pointer;
+}
+
+.form_content_data_div2 select {
+    font-size: 1vw;
+    padding: 5px 8px;
+    border-radius: 5px;
+    outline: none;
+    color: var(--textColor);
+    border: 1px solid rgb(187, 167, 167);
+    width: 28vw;
+    cursor: pointer;
+}
+
+.form_content_data_div3 {
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+.form_content_data_div3 textarea {
+    font-size: 1vw;
+    padding: 5px 8px;
+    border-radius: 5px;
+    outline: none;
+    color: var(--textColor);
+    border: 1px solid rgb(187, 167, 167);
+    width: 60vw;
+    height: 11vh;
+}
+
+.form_content_data_bilinng_div {
+    margin: 40px 0;
+}
+
+.form_content_data_bilinng_div>div {
+    display: flex;
+    gap: 10px;
+    place-items: center;
+    color: var(--textColor);
+   
+}
+
+.form_content_data_bilinng_div>div:last-child {
+    border: 1px solid rgb(187, 167, 167);
+    width: 60vw;
+    height: 7.5vh;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1vw;
+    background-color: #f6f7f8;
+    align-items: center;
+    justify-content: center;
+}
+.form_content_data_bilinng_div>div >h2{
+    font-weight:400;
+    color: black;
+}
+.form_content_data_team_div{
+    margin: 40px 0;
+    color: var(--textColor);
+}
+.form_content_data_team_div>div >h2{
+    font-weight:400;
+    color: black;
+}
+.form_content_data_team_div>div:last-child{
+    border: 1px dashed rgb(187, 167, 167);
+    width: 60vw;
+    height: 7.5vh;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+.form_content_data_team_div>div:last-child button{
+    font-size: 1vw;
+    padding: 10px;
+    background-color:#d5d7da;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
 }

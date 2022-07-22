@@ -1,15 +1,16 @@
 import React, { useRef } from "react";
 import styles from "../styles/newprojectform.module.css";
 import { FiArrowLeft } from "react-icons/fi";
+import {useNavigate} from 'react-router-dom'
 
 const NewProjectForm = () => {
   const ref = useRef([]);
-
+const navigate = useNavigate();
   return (
     <div className={styles.main_container_form}>
       <div className={styles.form_top_div}>
         
-          <FiArrowLeft  fontSize={"30px"}/>
+          <FiArrowLeft onClick={()=>navigate('/project')} fontSize={"30px"}/>
         
         <h1>New Project</h1>
       </div>
@@ -40,25 +41,27 @@ const NewProjectForm = () => {
                 </div>
               </div>
 
-              <div className={styles.form_content_data_div1}>
+              <div className={styles.form_content_data_div2}>
                 <div>
                   <p>Client</p>
                   <select>
                     <option value=""> Select Client</option>
+                    <option value=""> No client</option>
                   </select>
                 </div>
                 <div>
+                  <p>Project image</p>
                   <input type="file" />
                 </div>
               </div>
 
-              <div>
+              <div className={styles.form_content_data_div3}>
                 <p>Notes</p>
                 <textarea placeholder="Additional information on the project"></textarea>
               </div>
 
-              <div>
-                <div>
+              <div className={styles.form_content_data_bilinng_div}>
+                <div >
                   <h2>Billing</h2>
                   <div>
                     <input
@@ -77,7 +80,7 @@ const NewProjectForm = () => {
                 </div>
               </div>
 
-              <div>
+              <div className={styles.form_content_data_bilinng_div} >
                 <div>
                   <h2>Budget</h2>
                   <div>
@@ -97,7 +100,7 @@ const NewProjectForm = () => {
                 </div>
               </div>
 
-              <div>
+              <div className={styles.form_content_data_bilinng_div}>
                 <div>
                   <h2>Work types</h2>
                 </div>
@@ -109,7 +112,7 @@ const NewProjectForm = () => {
                 </div>
               </div>
 
-              <div>
+              <div className={styles.form_content_data_team_div}>
                 <div>
                   <h2>Team</h2>
                 </div>
