@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectBody from "../Components/ProjectBody";
+import ProjectBody from "../Components/ProjectBody"
 
 const Dashboard = () => {
   return (
