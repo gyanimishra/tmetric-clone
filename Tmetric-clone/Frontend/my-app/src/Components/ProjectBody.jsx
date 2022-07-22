@@ -17,11 +17,13 @@ const ProjectBody = () => {
   ];
   const navigate = useNavigate();
 
+
   const [text, setText] = useState("");
   let newArray = arr.filter((el) => {
     if (el.name.toLowerCase().includes(text.toLowerCase())) {
       return el;
     }
+    return false;
   });
   const handleChnage = (e) => {
     setText(e.target.value);
@@ -29,6 +31,7 @@ const ProjectBody = () => {
       if (el.name.toLowerCase().includes(text.toLowerCase())) {
         return el;
       }
+      return false;
     });
   };
 
@@ -141,7 +144,7 @@ const ProjectBody = () => {
                 <p>No team</p>
               </div>
               <div>
-                <FiMoreHorizontal />
+                <FiMoreHorizontal className={styles.product_more_options} />
               </div>
             </div>
           ))}
