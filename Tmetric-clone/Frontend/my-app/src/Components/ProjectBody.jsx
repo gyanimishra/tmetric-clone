@@ -14,6 +14,7 @@ const ProjectBody = () => {
     { name: "masai3", status: false, code: "lms4", team: "no team" },
     { name: "masai4", status: true, code: "lms5", team: "no team" },
   ];
+  
   const [text, setText] = useState("");
   let newArray = arr.filter((el) => {
     if (el.name.toLowerCase().includes(text.toLowerCase())) {
