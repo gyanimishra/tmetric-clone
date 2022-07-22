@@ -36,7 +36,7 @@ const NewProjectForm = () => {
                 </div>
                 <div>
                   <p>Project Code</p>
-                  <input type="text" placeholder="PR-01" />
+                  <input className={styles.projectprInput} type="text" placeholder="PR-01" />
                 </div>
               </div>
 
