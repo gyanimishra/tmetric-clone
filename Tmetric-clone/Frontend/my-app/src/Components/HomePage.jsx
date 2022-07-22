@@ -12,6 +12,7 @@ export const HomePage = () => {
     const [billing, setBilling] = useState(false)
     const [reporting, setReporting] = useState(false)
     const [timeOff, setTimeOff] = useState(false)
+    const [video, setVideo] = useState(false)
     const HomePageContainer3 = (a) => {
         if (a === "timeTracking") {
             setTimeTracking(true)
@@ -64,6 +65,9 @@ export const HomePage = () => {
     }
     return (
         <div className='HomePageMainDiv'>
+            {video && <div className='YoutubeVideoDiv' onClick={() => setVideo(false)}>
+                <iframe src="https://www.youtube.com/embed/d2LwNiALPIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>}
             <div className='HomePageContainer1'>
                 <div>
                     <div>Make the best use of your time</div>
@@ -79,10 +83,10 @@ export const HomePage = () => {
                         <div>Fully Functional 30-Day Trial</div>
                     </div>
                 </div>
-                <div>
+                <div onClick={() => setVideo(true)}>
                     <img src="https://tmetric.com/media/w53hmkzd/img-video-cover.png" alt="" />
                     <div>
-                        <BsPlayFill />
+                        <BsPlayFill onClick={() => setVideo(true)} />
                     </div>
                 </div>
             </div>
@@ -229,6 +233,125 @@ export const HomePage = () => {
                     </ul>
                     <button>Start Free Trial</button>
                 </div>
+            </div>
+            <div className='HomePageContainer4'>
+                <div>
+                    <h2>Monitor attendance and time-off requests</h2>
+                    <ul typeof='disc'>
+                        <li>flexible time off policy</li>
+                        <li>time off requests management</li>
+                        <li>time off calendar</li>
+                        <li>pto calculations</li>
+                    </ul>
+                    <button>Start Free Trial</button>
+                </div>
+                <div>
+                    <img src='https://tmetric.com/media/0sapzfi1/time-off-calendar-case.png' alt="" />
+                </div>
+            </div>
+            <div className='HomePageContainer7'>
+                <div>
+                    <h2>Integration with 50+ popular services</h2>
+                    <p>TMetric integrates with dozens of services, which lets you measure progress and activity in any tool you use.</p>
+                    <div>
+                        <button>Start Free Trial</button>
+                        <div><span>Learn More</span> <BsArrowRightShort /></div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <img src="https://tmetric.com/media/cshbmvwf/logo-integration-gsuite.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/fnbggshs/logo-integration-msoffice.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/plvb1mg0/logo-integration-gkeep.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/smflyk5w/logo-integration-github.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/kbrcntmi/logo-integration-excel.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/4aeci1fh/logo-integration-asana.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/caxbzjss/logo-integration-jira.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/dw2nwjwv/logo-integration-gitlab.svg" alt="" />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://tmetric.com/media/me5ih5eu/logo-integration-gdocs.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/0bzmfrlf/logo-integration-trello.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/sdaj41fi/logo-integration-redmine.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/1xedbfav/logo-integration-zendesk.svg" alt="" />
+                        </div>
+                        <div>
+                            <img src="https://tmetric.com/media/n3dmgi1p/logo-integration-wrike.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='HomePageContainer9'>
+                <h3>Read Hundreds of Reviews</h3>
+                <img src="https://tmetric.com/media/rt1k0zjc/img-rating-4-5.svg" alt="" />
+                <p>4.5 Customer Rating</p>
+                <p>242 Reviews</p>
+            </div>
+            <div className='HomePageContainer10'>
+                <h4>Used and trusted by 3000+ businesses in the world</h4>
+                <div>
+                    <div><img src="https://tmetric.com/media/wlmpffzm/logo_business_endygo.png" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/0ddgehbk/logo_business_itsyndicate.png" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/eozchehq/logo_business_pulso.png" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/rmvok0xh/logo_business_050media.png" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/ccpn231z/logo-business-jot-digi-tal.svg" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/z0fhmi1j/logo-business-freshlab.svg" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/xjogm2h2/logo-business-mvad.svg" alt="" /></div>
+                    <div><img src="https://tmetric.com/media/nvalaok1/logo_business_swaven.png" alt="" /></div>
+                </div>
+            </div>
+            <div className='HomePageContainer11'>
+                <h2>Why choose TMetric?</h2>
+                <div>
+                    <div>
+                        <img src="https://tmetric.com/media/zrvmvbl3/icon-straightforward.svg" alt="" />
+                        <p>The most straightforward time tracking app</p>
+                    </div>
+                    <div>
+                        <img src="https://tmetric.com/media/opdfdo3l/icon-platforms.svg" alt="" />
+                        <p>Available on all platforms: macOS, Windows, Linux, iOS, and Android</p>
+                    </div>
+                    <div>
+                        <img src="https://tmetric.com/media/igkmpmix/icon-freetrial.svg" alt="" />
+                        <p>Free plan with basic time tracking for a team up to 5</p>
+                    </div>
+                    <div>
+                        <img src="https://tmetric.com/media/htxfmpoe/icon-reasonableprice.svg" alt="" />
+                        <p>Reasonable price makes it affordable for anyone</p>
+                    </div>
+                    <div>
+                        <img src="https://tmetric.com/media/0uyowzzu/icon-multilang.svg" alt="" />
+                        <p>Multilanguage solution</p>
+                    </div>
+                </div>
+            </div>
+            <div className='HomePageContainer12'>
+                <h2>Make time work for you!</h2>
+                <button>Start Free Trial</button>
+                <p>Powered by <span>devart</span> A software vendor with 20 years of experience.</p>
             </div>
         </div>
     )
