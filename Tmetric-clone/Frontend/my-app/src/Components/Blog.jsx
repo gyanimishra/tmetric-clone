@@ -4,7 +4,6 @@ import BlogCard from "./BlogCard";
 import Data from "../Data.json";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-console.log(Data);
 const Blog = () => {
   return (
     <>

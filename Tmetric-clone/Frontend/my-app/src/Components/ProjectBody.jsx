@@ -5,6 +5,7 @@ import { TiArrowUp } from "react-icons/ti";
 import { TiArrowUnsorted } from "react-icons/ti";
 import { RiFolderOpenFill } from "react-icons/ri";
 import { FiMoreHorizontal } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const ProjectBody = () => {
   let arr = [
@@ -14,6 +15,8 @@ const ProjectBody = () => {
     { name: "masai3", status: false, code: "lms4", team: "no team" },
     { name: "masai4", status: true, code: "lms5", team: "no team" },
   ];
+  const navigate = useNavigate();
+
 
   const [text, setText] = useState("");
   let newArray = arr.filter((el) => {
@@ -73,7 +76,14 @@ const ProjectBody = () => {
           <div className={styles.content_top_div}>
             <div className={styles.content_top_div_left_div}>
               <div>
-                <button> + New Project</button>
+                <button
+                  onClick={() => {
+                    navigate("new");
+                  }}
+                >
+                  {" "}
+                  + New Project
+                </button>
               </div>
               <div className={styles.toggle_div}>
                 <input
