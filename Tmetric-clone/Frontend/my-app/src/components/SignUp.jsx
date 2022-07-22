@@ -48,13 +48,29 @@ const handleFormSubmit = (event) => {
 
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <div style={{ marginTop: "10px" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          backgroundColor: "#f6f7f8",
+          border: "soild",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "white",
+            width: "40vw",
+            textAlign: "center",
+          }}
+        >
           <img
+            style={{ marginTop: "10px", marginLeft: "50px" }}
             src="https://id.tmetric.com/images/tmetric_logo_and_text.svg"
             alt=""
           />
-          <h5 style={{ marginTop: "10px" }}>Create Your Account</h5>
+          <h5 style={{ marginTop: "10px", marginLeft: "60px" }}>
+            Create Your Account
+          </h5>
 
           {/* register */}
           <div>
@@ -70,7 +86,7 @@ const handleFormSubmit = (event) => {
                   style={{
                     cursor: "pointer",
                     marginBottom: "2px",
-                    marginLeft: "-80%",
+                    marginLeft: "-210px",
                   }}
                 >
                   {" "}
@@ -79,11 +95,12 @@ const handleFormSubmit = (event) => {
 
                 <input
                   style={{
-                    height: "15px",
+                    height: "20px",
                     width: "250px",
                     borderRadius: "5px",
+                    border: "1.5px solid blue",
                   }}
-                  type="name"
+                  type="text"
                   name="name"
                   value={name}
                   placeholder="John Smith"
@@ -97,16 +114,17 @@ const handleFormSubmit = (event) => {
                   style={{
                     cursor: "pointer",
                     marginBottom: "2px",
-                    marginLeft: "-80%",
+                    marginLeft: "-210px",
                   }}
                 >
                   Email{" "}
                 </p>
                 <input
                   style={{
-                    height: "15px",
+                    height: "20px",
                     width: "250px",
                     borderRadius: "5px",
+                    border: "1.5px solid blue",
                   }}
                   type="email"
                   name="email"
@@ -121,16 +139,17 @@ const handleFormSubmit = (event) => {
                   style={{
                     cursor: "pointer",
                     marginBottom: "5px",
-                    marginLeft: "-70%",
+                    marginLeft: "-190px",
                   }}
                 >
                   Password
                 </p>
                 <input
                   style={{
-                    height: "15px",
+                    height: "20px",
                     width: "250px",
-                    borderRadius: "5px",
+                    borderRadius: "5px ",
+                    border: "1.5px solid blue",
                   }}
                   type="password"
                   name="password"
@@ -146,7 +165,7 @@ const handleFormSubmit = (event) => {
                   style={{
                     background: "#3070f0",
 
-                    width: "100%",
+                    width: "80%",
                     height: "28px",
                     borderRadius: "10px",
                     cursor: "pointer",
@@ -164,10 +183,12 @@ const handleFormSubmit = (event) => {
               }}
             >
               <input type="checkbox" name="checkbox" />
-              <p style={{ cursor: "pointer" }}>I accept Terms of Service</p>
+              <p style={{ cursor: "pointer", marginLeft: "35px" }}>
+                I accept Terms of Service
+              </p>
             </div>
           </div>
-          <p style={{ marginTop: "-3px" }}>or</p>
+          <p style={{ textAlign: "center" }}>or</p>
           <div>
             <div
               style={{
@@ -175,8 +196,10 @@ const handleFormSubmit = (event) => {
                 justifyContent: "center",
                 gap: "15px",
                 height: "25px",
+                width: "80%",
+                marginLeft: "30px",
                 border: "1px solid black",
-              
+                borderRadius: "5px",
               }}
             >
               <img src="https://id.tmetric.com/images/google_logo.svg" alt="" />
@@ -190,7 +213,10 @@ const handleFormSubmit = (event) => {
                 justifyContent: "center",
                 gap: "15px",
                 height: "25px",
+                width: "80%",
+                marginLeft: "30px",
                 border: "1px solid black",
+                borderRadius: "5px",
                 marginTop: "10px",
               }}
             >
@@ -208,7 +234,10 @@ const handleFormSubmit = (event) => {
                 justifyContent: "center",
                 gap: "15px",
                 border: "1px solid black",
+                borderRadius: "5px",
                 height: "25px",
+                marginLeft: "30px",
+                width: "80%",
                 marginTop: "10px",
               }}
             >
@@ -219,7 +248,7 @@ const handleFormSubmit = (event) => {
             </div>
           </div>
         </div>
-        <div>
+        <div style={{ backgroundColor: "#f2f5fc" }}>
           <img
             style={{ height: "100%", width: "100" }}
             src="https://id.tmetric.com/images/side_image_register.svg"
