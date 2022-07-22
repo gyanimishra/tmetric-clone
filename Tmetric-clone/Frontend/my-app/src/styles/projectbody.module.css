@@ -202,10 +202,11 @@
   justify-content: flex-start;
 }
 
-.project_div>div:last-child *:hover {
+.project_div>div:last-child>.dotdotdot:hover {
   background-color: #b4b8cc;
   border-radius: 50%;
-  padding: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 .project_div_first {
@@ -237,4 +238,21 @@
 
 .project_div_noteam p {
   color: var(--textColor);
+}
+
+.other_btn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 35px;
+  right: 0;
+  box-sizing: border-box;
+  background-color:white;
+  height:fit-content;
+  width:4vw;
+  padding: 10px;
+}
+
+.more_options_div_last {
+  position: relative;
 }

@@ -3,11 +3,12 @@ import styles from "../styles/projectbody.module.css";
 import { IoIosSearch } from "react-icons/io";
 import { TiArrowUp } from "react-icons/ti";
 import { TiArrowUnsorted } from "react-icons/ti";
-import { RiFolderOpenFill } from "react-icons/ri";
-import { FiMoreHorizontal } from "react-icons/fi";
+
 import { useNavigate } from "react-router-dom";
+import Project from "./Project";
 
 const ProjectBody = () => {
+  const [options,setOptions]= useState(false)
   let arr = [
     { name: "masai", status: true, code: "lms1", team: "no team" },
     { name: "masai1", status: false, code: "lms2", team: "no team" },
@@ -78,7 +79,6 @@ const ProjectBody = () => {
                     navigate("new");
                   }}
                 >
-                  {" "}
                   + New Project
                 </button>
               </div>
@@ -122,28 +122,7 @@ const ProjectBody = () => {
             <div></div>
           </div>
           {newArray.map((el, index) => (
-            <div key={index} className={styles.project_div}>
-              <div className={styles.project_div_first}>
-                <input type="checkbox" />
-                <div className={styles.folder_logo}>
-                  <RiFolderOpenFill />
-                </div>
-                <p>{el.name}</p>
-
-                {el.status && (
-                  <span className={styles.project_div_status}>done</span>
-                )}
-              </div>
-              <div>
-                <p>{el.code}</p>
-              </div>
-              <div className={styles.project_div_noteam}>
-                <p>No team</p>
-              </div>
-              <div>
-                <FiMoreHorizontal />
-              </div>
-            </div>
+            <Project key={index} {...el} options={options} setOptions={setOptions} index={index}/>
           ))}
         </div>
       </div>
