@@ -1,9 +1,14 @@
-import React from 'react'
+
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "../pages/Dashboard";
 
 const AllRoutes = () => {
   return (
-    <div>AllRoutes</div>
-  )
-}
+    <Routes>
+      <Route path="/project" element={<Dashboard />} />
+    </Routes>
+  );
+};
 
-export default AllRoutes
+export default AllRoutes;
