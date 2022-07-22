@@ -4,6 +4,9 @@ import { IoMdSearch } from "react-icons/io";
 import { BsFillArrowUpRightSquareFill } from "react-icons/bs";
 const Support = () => {
   return (
+
+
+    
     <div className={style.supportmain}>
       <div className={style.supportnav}>
         <div className={style.supportheading}>
