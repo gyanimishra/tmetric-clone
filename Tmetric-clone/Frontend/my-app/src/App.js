@@ -1,17 +1,9 @@
 
-import './App.css';
-import Signin from './Components/Signin';
-import Signup from './Components/SignUp';
-
+import AllRoutes from './routes/AllRoutes'
 function App() {
   return (
-    <div className="App">
-
-     <h1>Hello</h1>
-
-     <Signup/>
-     <Signin/>
-
+    <div>
+      <AllRoutes/>
     </div>
   );
 }
