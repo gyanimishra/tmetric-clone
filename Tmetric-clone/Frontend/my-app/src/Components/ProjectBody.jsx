@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 import Project from "./Project";
 import { get_projects } from "../redux/project/action";
 import { useSelector ,useDispatch} from "react-redux";
+import Loader from "./Loader";
 
 const ProjectBody = () => {
   const [options, setOptions] = useState(false);
@@ -41,7 +42,7 @@ const ProjectBody = () => {
     dispatch( get_projects())
   }, [dispatch]);
 if(isLoading){
-   return <div>........Loading</div>
+   return <Loader/>
 }
   return (
     <div className={styles.main_container}>

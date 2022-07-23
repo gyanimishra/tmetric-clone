@@ -287,3 +287,9 @@ color: var(--textColor);
   font-size:0.9vw;
   padding-left: 10px;
 }
+.loader{
+display: flex;
+place-content: center;
+justify-content: center;
+margin-top: 150px;
+}
