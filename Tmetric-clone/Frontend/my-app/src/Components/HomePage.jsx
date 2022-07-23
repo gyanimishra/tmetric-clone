@@ -5,6 +5,8 @@ import { MdEmail } from 'react-icons/md'
 import { useState } from 'react'
 import teamEffectivelyImage from './Images/team effectively image.png'
 import profitabilityBusinessImage from './Images/profitability business image.png'
+import { Navbar } from './Navbar'
+import { Footer } from './Footer'
 export const HomePage = () => {
     const [timeTracking, setTimeTracking] = useState(true)
     const [projectManagement, setProjectManagement] = useState(false)
@@ -122,6 +124,8 @@ export const HomePage = () => {
     }
 
     return (
+    <>
+    <Navbar/>
         <div className='HomePageMainDiv'>
             {video && <div className='YoutubeVideoDiv' onClick={() => setVideo(false)}>
                 <iframe src="https://www.youtube.com/embed/d2LwNiALPIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -457,5 +461,7 @@ export const HomePage = () => {
                 <p>Powered by <span>devart</span> A software vendor with 20 years of experience.</p>
             </div>
         </div>
+        <Footer/>
+                                    </>
     )
 }
