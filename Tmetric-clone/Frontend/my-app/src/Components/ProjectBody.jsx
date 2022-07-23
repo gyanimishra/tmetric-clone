@@ -18,11 +18,13 @@ const ProjectBody = () => {
   ];
   const navigate = useNavigate();
 
+
   const [text, setText] = useState("");
   let newArray = arr.filter((el) => {
     if (el.name.toLowerCase().includes(text.toLowerCase())) {
       return el;
     }
+    return false;
   });
   const handleChnage = (e) => {
     setText(e.target.value);
@@ -30,6 +32,7 @@ const ProjectBody = () => {
       if (el.name.toLowerCase().includes(text.toLowerCase())) {
         return el;
       }
+      return false;
     });
   };
 
@@ -123,6 +126,7 @@ const ProjectBody = () => {
           </div>
           {newArray.map((el, index) => (
             <Project key={index} {...el} options={options} setOptions={setOptions} index={index}/>
+
           ))}
         </div>
       </div>

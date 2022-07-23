@@ -2,6 +2,21 @@
   /* border: solid;
   padding-top: 60px; */
 }
+.YoutubeVideoDiv {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  z-index: 200;
+  background-color: rgba(68, 66, 66, 0.693);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.YoutubeVideoDiv > iframe {
+  width: 85vw;
+  height: 95vh;
+}
 .HomePageContainer1 {
   padding: 100px 60px 20px;
   display: flex;
@@ -58,7 +73,7 @@
 }
 .HomePageContainer1_EmailDiv > :nth-child(2):focus {
   outline: #0066cc 1px solid;
-  box-shadow: rgba(80, 168, 227, 0.25) 0px 13px 27px -5px,
+  box-shadow: rgba(64, 139, 189, 0.25) 0px 13px 27px -5px,
     rgba(80, 168, 227, 0.3) 0px 8px 16px -8px;
 }
 .HomePageContainer1_StartBtn {
@@ -75,6 +90,11 @@
   height: 48px;
   font-weight: 500;
   font-size: 16px;
+  transition-duration: 0.3s;
+}
+.HomePageContainer1_StartBtn > :nth-child(1):hover {
+  transition-duration: 0.3s;
+  background-color: #1147b5;
 }
 .HomePageContainer1_StartBtn > :nth-child(2) {
   padding: 0px 0px 0px 20px;
@@ -107,6 +127,12 @@
   border-radius: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.HomePageContainer1 > :nth-child(2) > :nth-child(2):hover {
+  transition-duration: 0.3s;
+  background-color: black;
 }
 /* ------------------------ HomePageContainer2------------------------ */
 .HomePageContainer2 {
@@ -172,6 +198,8 @@
   color: #51565c;
   background-color: #e7edfc;
   border: solid 1px #3070f0;
+  box-shadow: rgba(69, 124, 179, 0.319) 0px 10px 36px 0px,
+    rgba(66, 111, 201, 0.306) 0px 0px 0px 1px;
 }
 .HomePageContainer3_SelectedListDiv > :nth-child(2) > h3 {
   margin: 0px 0px 8px 0px;
@@ -210,6 +238,10 @@
   color: #292e33;
   border: solid 1px rgba(177, 175, 175, 0.763);
 }
+.HomePageContainer3_ListDiv:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 .HomePageContainer3_ListDiv > :nth-child(1) {
   /* border: solid;
   margin: 0px;
@@ -233,7 +265,7 @@
 /* ------------------------ HomePageContainer4------------------------ */
 
 .HomePageContainer4 {
-  padding: 100px 40px;
+  padding: 100px 40px 0px 40px;
   display: flex;
   background-color: #f6f7f8;
 }
@@ -243,6 +275,8 @@
   margin: 0px 0px 32px;
   font-size: 48px;
   line-height: 54px;
+  padding: 0px 40px 0px 0px;
+  color: #292e33;
 }
 .HomePageContainer4 > :nth-child(1) {
   padding: 0px 20px;
@@ -272,6 +306,12 @@
   box-sizing: border-box;
   border-radius: 5px;
   margin-top: 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.HomePageContainer4 > :nth-child(1) > button:hover {
+  transition-duration: 0.3s;
+  background-color: #1147b5;
 }
 .HomePageContainer4 > :nth-child(2) {
   /* padding: 0px 10px 0px 30px; */
@@ -296,6 +336,7 @@
   font-size: 48px;
   line-height: 54px;
   padding-right: 70px;
+  color: #292e33;
 }
 .HomePageContainer5 > :nth-child(2) > ul {
   font-size: 20px;
@@ -318,6 +359,12 @@
   box-sizing: border-box;
   border-radius: 5px;
   margin-top: 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.HomePageContainer5 > :nth-child(2) > button:hover {
+  transition-duration: 0.3s;
+  background-color: #1147b5;
 }
 .HomePageContainer5 > :nth-child(1) {
   padding: 0px 40px 0px 0px;
@@ -328,4 +375,273 @@
   position: absolute;
   left: -50px;
   width: 53.6vw;
+}
+
+/* ------------------------ HomePageContainer7------------------------ */
+.HomePageContainer7 {
+  padding: 120px 60px 52px 60px;
+  border-bottom: solid 1px rgba(168, 162, 162, 0.584);
+}
+.HomePageContainer7 > :nth-child(1) {
+  text-align: center;
+}
+.HomePageContainer7 > :nth-child(1) > h2 {
+  color: #292e33;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px 0px 32px;
+}
+.HomePageContainer7 > :nth-child(1) > p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 32px;
+  /* text-align: center; */
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) > button {
+  padding: 9px 24px;
+  background-color: #3070f0;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  height: 44px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 0px 14px 30px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) > button:hover {
+  transition-duration: 0.3s;
+  background-color: #1147b5;
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) > div {
+  display: flex;
+  align-items: center;
+  color: #3070f0;
+  margin: 0px 14px 30px;
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) > div > :nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.HomePageContainer7 > :nth-child(1) > :nth-child(3) > div > :nth-child(2) {
+  font-size: 30px;
+}
+.HomePageContainer7 > :nth-child(2) {
+  padding: 6px 0px 0px;
+}
+.HomePageContainer7 > :nth-child(2) > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomePageContainer7 > :nth-child(2) > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgba(171, 170, 170, 0.59);
+  border-radius: 10px;
+  height: 120px;
+  width: 120px;
+  margin: 12px;
+}
+
+/* ------------------------ HomePageContainer8------------------------ */
+.HomePageContainer8 {
+  padding: 120px 0px;
+}
+.HomePageContainer8 > div {
+  margin: 0px 11.4vw;
+  padding: 0px 60px;
+}
+.HomePageContainer8 > div > h3 {
+  font-size: 36px;
+  margin: 0px 0px 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.HomePageContainer8 > div > :nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.HomePageContainer8 > div > :nth-child(2) > :nth-child(2) {
+  margin: 2px 0px 0px 125px;
+  padding: 0px 60px 0px 0px;
+}
+.HomePageContainer8 > div > :nth-child(2) > :nth-child(2) > img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.HomePageContainer8ParaDiv > p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 32px;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) > :nth-child(1) {
+  padding: 10px 0px 0px 0px;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) > :nth-child(2) {
+  font-size: 16px;
+  display: flex;
+  color: #3070f0;
+  font-weight: 500;
+  margin: 16px 0px 0px 20px;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) > :nth-child(2) > :nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) > :nth-child(2) > :nth-child(2) {
+  font-size: 30px;
+}
+.HomePageContainer8ParaDiv > :nth-child(2) > :nth-child(1) > p {
+  margin: 0px 0px 9px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.HomePageContainer8 > div > :nth-child(3) {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.HomePageContainer8 > div > :nth-child(3) > div {
+  text-align: center;
+  padding: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.HomePageContainer8 .HomePageContainer9SelectedList {
+  border-top: solid 2px #3070f0;
+  color: #3070f0;
+}
+.HomePageContainer8 .HomePageContainer9List {
+  border-top: solid 1px #9a9ea3a8;
+  color: #777e85;
+  transition-duration: 0.3s;
+}
+.HomePageContainer8 .HomePageContainer9List:hover {
+  transition-duration: 0.3s;
+  color: #3070f0;
+}
+/* ------------------------ HomePageContainer9------------------------ */
+.HomePageContainer9 {
+  padding: 64px 0px;
+  text-align: center;
+  background-color: #fff2cc;
+}
+.HomePageContainer9 > :nth-child(1) {
+  margin: 0px 0px 32px;
+  font-size: 36px;
+  color: #292e33;
+  font-weight: bold;
+}
+.HomePageContainer9 > :nth-child(3) {
+  font-weight: bold;
+  margin: 15px 0px 16px;
+  font-size: 36px;
+  color: #212529;
+}
+.HomePageContainer9 > :nth-child(4) {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px 0px 16px;
+  color: #3070f0;
+}
+
+/* ------------------------ HomePageContainer10------------------------ */
+.HomePageContainer10 {
+  padding: 48px 60px 24px;
+  background-color: #f6f7f8;
+}
+.HomePageContainer10 > :nth-child(1) {
+  margin: 0px 0px 26px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.HomePageContainer10 > :nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.HomePageContainer10 > :nth-child(2) > div {
+  padding: 0px 12px 24px;
+}
+
+/* ------------------------ HomePageContainer11------------------------ */
+.HomePageContainer11 {
+  padding: 120px 40px 100px;
+}
+.HomePageContainer11 > :nth-child(1) {
+  margin: 0px 0px 12px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+.HomePageContainer11 > :nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+}
+.HomePageContainer11 > :nth-child(2) > div {
+  margin: 20px;
+  padding: 23px;
+  /* display: flex;
+  flex-direction: column; */
+  border-radius: 10px;
+  border: solid 1px rgba(176, 171, 171, 0.282);
+}
+.HomePageContainer11 > :nth-child(2) > div > p {
+  font-size: 20px;
+  font-weight: 600;
+  line-gap-override: 10px;
+  color: #212529;
+  margin-right: 40px;
+}
+
+/* ------------------------ HomePageContainer12------------------------ */
+.HomePageContainer12 {
+  padding: 64px 0px 48px;
+  text-align: center;
+  background-color: #41338f;
+}
+.HomePageContainer12 > :nth-child(1) {
+  color: white;
+  font-size: 48px;
+  margin: 0px 0px 32px;
+  font-weight: bold;
+}
+.HomePageContainer12 > :nth-child(2) {
+  padding: 9px 12px;
+  background-color: white;
+  color: #212529;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  height: 44px;
+  box-sizing: border-box;
+  width: 200px;
+  border-radius: 5px;
+  margin: 0px 0px 32px;
+  cursor: pointer;
+}
+.HomePageContainer12 > :nth-child(3) {
+  color: white;
+  margin: 0px 0px 16px;
+}
+.HomePageContainer12 > :nth-child(3) > span {
+  font-size: 19px;
+  margin: 0px 5px;
+  font-weight: 500;
 }

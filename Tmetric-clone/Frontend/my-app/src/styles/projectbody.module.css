@@ -202,11 +202,13 @@
   justify-content: flex-start;
 }
 
+
 .project_div>div:last-child>.dotdotdot:hover {
   background-color: #b4b8cc;
   border-radius: 50%;
   width: 25px;
   height: 25px;
+
 }
 
 .project_div_first {
