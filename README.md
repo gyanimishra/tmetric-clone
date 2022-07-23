@@ -1,6 +1,5 @@
 # tmetric-clone
 
-<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://giphy.com/gifs/mike-huckabee-sam-dubose-politricks-7rfwKxzvH22cg)</a>
 
 
 
