@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import { BiChevronDown } from 'react-icons/bi'
 import { BsGlobe2 } from 'react-icons/bs'
 import { DropdownWhyTMatric } from './DropdownWhyTMatric';
-import {useNavigate} from 'react-router-dom'
-
+import { useNavigate } from 'react-router-dom'
 import './Navbar.css'
 import { DropdownApp } from './DropdownApp&Integeration';
 export const Navbar = () => {
@@ -22,7 +21,7 @@ export const Navbar = () => {
     return (
         <div className='NavbarMainDiv'>
             <div className='NavbarImage'>
-                <img src="https://tmetric.com/images/tmetric_logo_with_text.svg" width="147" height="54" alt="TMETRIC" />
+                <img onClick={() => navigate('/')} src="https://tmetric.com/images/tmetric_logo_with_text.svg" width="147" height="54" alt="TMETRIC" />
                 <button><BsGlobe2 /> EN</button>
             </div>
             <div className={`NavbarPageName ${whyTMetricDropdown && 'dropdownSelected'}`}><span onClick={WhyTMatricClick}>Why TMetric</span><BiChevronDown className='NavbarDownArrow' /></div>
@@ -30,11 +29,10 @@ export const Navbar = () => {
             <div className='NavbarPageName'><Link to={'/pricing'}>Pricing</Link></div>
             <div className='NavbarPageName'><Link to={'/support'}>Support</Link></div>
             <div className='NavbarPageName'><Link to={'/blog'}>Blog</Link> </div>
+
             <div className="NavbarLoginSignup">
-                <Link to="/signin">Log In</Link>
-                <button onClick={()=>{
-                    navigate("/signup")
-                }}>Sign Up</button>
+                <Link to="/">Log In</Link>
+                <button>Sign Up</button>
             </div>
             {whyTMetricDropdown && <DropdownWhyTMatric />}
             {appsDropdown && <DropdownApp />}
