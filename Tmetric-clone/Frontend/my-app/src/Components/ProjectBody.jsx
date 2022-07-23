@@ -14,7 +14,7 @@ const ProjectBody = () => {
 
   const navigate = useNavigate();
  
-  const arr = useSelector((state) => state.project.data);
+  const {data :arr,isLoading,isError} = useSelector((state) => state.project);
 
   const dispatch = useDispatch()
 
@@ -40,7 +40,9 @@ const ProjectBody = () => {
   useEffect(() => {
     dispatch( get_projects())
   }, [dispatch]);
-
+if(isLoading){
+   return <div>........Loading</div>
+}
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
