@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./Price.css";
 import { TiTick } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
+import { Navbar } from "./Navbar";
 
 const data = [
   {
@@ -66,6 +67,7 @@ const Price = () => {
 
   return (
     <>
+    <Navbar/>
       <div>
         <div className="price-header">
           <h1> Pricing</h1>

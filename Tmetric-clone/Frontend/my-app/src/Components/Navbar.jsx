@@ -27,7 +27,7 @@ export const Navbar = () => {
             </div>
             <div className={`NavbarPageName ${whyTMetricDropdown && 'dropdownSelected'}`}><span onClick={WhyTMatricClick}>Why TMetric</span><BiChevronDown className='NavbarDownArrow' /></div>
             <div className={`NavbarPageName ${appsDropdown && 'dropdownSelected'}`} ><span onClick={AppClick}>Apps & Integrations</span><BiChevronDown className='NavbarDownArrow' /></div>
-            <div className='NavbarPageName'><Link to={'/'}>Pricing</Link></div>
+            <div className='NavbarPageName'><Link to={'/pricing'}>Pricing</Link></div>
             <div className='NavbarPageName'><Link to={'/support'}>Support</Link></div>
             <div className='NavbarPageName'><Link to={'/blog'}>Blog</Link> </div>
             <div className="NavbarLoginSignup">
