@@ -10,6 +10,8 @@ const app = express()
 
 app.use(cors())
 app.use(express.json())
+
+
 app.use("/user", authRouter)
 app.use("/project", projectRouter)
 
