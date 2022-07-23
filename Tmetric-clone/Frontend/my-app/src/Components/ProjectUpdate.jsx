@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "../styles/newprojectform.module.css";
 import { FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import { get_projects, post_project, toggle_status } from "../redux/project/action";
+import { get_projects, toggle_status } from "../redux/project/action";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 
