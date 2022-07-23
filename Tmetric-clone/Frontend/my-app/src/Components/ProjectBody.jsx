@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/projectbody.module.css";
 import { IoIosSearch } from "react-icons/io";
 import { TiArrowUp } from "react-icons/ti";
@@ -6,26 +6,27 @@ import { TiArrowUnsorted } from "react-icons/ti";
 
 import { useNavigate } from "react-router-dom";
 import Project from "./Project";
+import { get_projects } from "../redux/project/action";
+import { useSelector ,useDispatch} from "react-redux";
 
 const ProjectBody = () => {
-  const [options,setOptions]= useState(false)
-  let arr = [
-    { name: "masai", status: true, code: "lms1", team: "no team" },
-    { name: "masai1", status: false, code: "lms2", team: "no team" },
-    { name: "m2", status: true, code: "lms3", team: "no team" },
-    { name: "masai3", status: false, code: "lms4", team: "no team" },
-    { name: "masai4", status: true, code: "lms5", team: "no team" },
-  ];
-  const navigate = useNavigate();
+  const [options, setOptions] = useState(false);
 
+  const navigate = useNavigate();
+ 
+  const arr = useSelector((state) => state.project.data);
+
+  const dispatch = useDispatch()
 
   const [text, setText] = useState("");
-  let newArray = arr.filter((el) => {
+
+  let newArray = arr?.filter((el) => {
     if (el.name.toLowerCase().includes(text.toLowerCase())) {
       return el;
     }
     return false;
   });
+
   const handleChnage = (e) => {
     setText(e.target.value);
     newArray = arr.filter((el) => {
@@ -35,6 +36,10 @@ const ProjectBody = () => {
       return false;
     });
   };
+
+  useEffect(() => {
+    dispatch( get_projects())
+  }, [dispatch]);
 
   return (
     <div className={styles.main_container}>
@@ -49,11 +54,13 @@ const ProjectBody = () => {
             </select>
           </div>
           <div>
-            <select>
-              <option>Status: Active and Done</option>
-              <option>Active and Done </option>
-              <option>Active</option>
-              <option>Done</option>
+            <select onChange={(e)=>{
+              dispatch(get_projects("status",e.target.value))
+            }}>
+              <option value={""}>Status: Active and Done</option>
+              <option value={""}>Active and Done </option>
+              <option value={false}>Active</option>
+              <option value={true} >Done</option>
             </select>
           </div>
 
@@ -124,9 +131,14 @@ const ProjectBody = () => {
             </div>
             <div></div>
           </div>
-          {newArray.map((el, index) => (
-            <Project key={index} {...el} options={options} setOptions={setOptions} index={index}/>
-
+          {newArray?.map((el, index) => (
+            <Project
+              key={index}
+              {...el}
+              options={options}
+              setOptions={setOptions}
+              index={index}
+            />
           ))}
         </div>
       </div>

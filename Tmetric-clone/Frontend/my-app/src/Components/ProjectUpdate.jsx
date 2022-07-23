@@ -1,14 +1,15 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "../styles/newprojectform.module.css";
 import { FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
-import { post_project } from "../redux/project/action";
-import {useDispatch} from 'react-redux'
+import { get_projects, post_project, toggle_status } from "../redux/project/action";
+import { useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
 
 const NewProjectForm = () => {
   const ref = useRef([]);
   const navigate = useNavigate();
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const handlebtn = (index) => {
     ref.current[index].scrollIntoView();
@@ -19,18 +20,22 @@ const NewProjectForm = () => {
 
   const checkShowSave = () => {
     if (formData.name || formData.code || formData.notes) {
-      setShowSave(true)
+      setShowSave(true);
     } else {
-      setShowSave(false)
+      setShowSave(false);
     }
   };
+  const params = useParams();
+
   const handleForm = (e) => {
     e.preventDefault();
-    dispatch(post_project(formData,navigate))
- 
-   
-
+    dispatch(toggle_status(formData,params.id));
+    navigate("/project")
   };
+
+  useEffect(() => {
+    dispatch(get_projects("_id", params.id, setFormData));
+  }, [dispatch, params.id]);
   return (
     <div className={styles.main_container_form}>
       <div className={styles.form_top_div}>
@@ -101,10 +106,9 @@ const NewProjectForm = () => {
                         ...formData,
                         [e.target.name]: e.target.value,
                       });
-                  
-                      
                     }}
                     onKeyUp={checkShowSave}
+                    defaultValue={formData.name}
                   />
                 </div>
                 <div>
@@ -119,10 +123,10 @@ const NewProjectForm = () => {
                         ...formData,
                         [e.target.name]: e.target.value,
                       });
-                  
                     }}
                     onKeyUp={checkShowSave}
                     required
+                    defaultValue={formData.code}
                   />
                 </div>
               </div>
@@ -151,9 +155,9 @@ const NewProjectForm = () => {
                       ...formData,
                       [e.target.name]: e.target.value,
                     });
-                   
                   }}
                   onKeyUp={checkShowSave}
+                  defaultValue={formData.notes}
                 ></textarea>
               </div>
 
@@ -244,9 +248,14 @@ const NewProjectForm = () => {
                   <p>Press Ctrl+Enter to save changes</p>
                   <div>
                     <button type="submit">Save</button>
-                    <button type="button" onClick={() =>{
-                      navigate('/project')
-                    }}>Cancel</button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        navigate("/project");
+                      }}
+                    >
+                      Cancel
+                    </button>
                   </div>
                 </div>
               )}
