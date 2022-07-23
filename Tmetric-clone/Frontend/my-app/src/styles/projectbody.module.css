@@ -248,13 +248,48 @@
   flex-direction: column;
   top: 35px;
   right: 0;
-  box-sizing: border-box;
-  background-color:white;
-  height:fit-content;
-  width:4vw;
-  padding: 10px;
+
+  background-color: white;
+ 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  /* width:7vw; */
+  z-index: 1;
+  
+ 
 }
 
 .more_options_div_last {
   position: relative;
+}
+.other_btn >div{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: var(--textColor);
+}
+.other_btn >div button{
+  background-color:inherit;
+  border:none;
+  padding: 8px 40px;
+  font-size:1vw;
+  border-radius: 5px;
+  width: 100%;
+  color: rgb(90, 90, 90);
+  display: flex;
+  justify-content:space-between;
+}
+.other_btn >div button:hover{
+  background-color:rgb(228, 228, 228);
+  cursor: pointer;
+}
+.other_btn >div p{
+  font-size:0.9vw;
+  padding-left: 10px;
+}
+.loader{
+display: flex;
+place-content: center;
+justify-content: center;
+margin-top: 150px;
 }
