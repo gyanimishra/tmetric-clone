@@ -1,10 +1,11 @@
 # tmetric-clone
 
+<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://giphy.com/gifs/mike-huckabee-sam-dubose-politricks-7rfwKxzvH22cg)</a>
 
 
 
 ## Description
-<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://giphy.com/gifs/mike-huckabee-sam-dubose-politricks-7rfwKxzvH22cg)</a>
+
 We have tried our best to make a fully-functional clone of Tmetric.com website that provides a minimal user experience where users can roam around and Assigned  their desired projects. 
 ### Quick Preview -https://anthropology-clone-gyan.netlify.app/
 
@@ -48,7 +49,9 @@ ANSHUMAAN  DIVAYA  and RAMA worked on the user interface - from conception and p
 3. Created a brand surrounding the application
 4. Templating the topics page
 5. Content to explain the application
-<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/C4E03AQEHI6P7oOmc-A/profile-displayphoto-shrink_800_800/0/1649869487093?e=1663804800&v=beta&t=rzz097GF9vWnNpzqqGkIS3v1HXkYiob5TsOrvgLELeI)</a>
+
+
+<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/C4E03AQEHI6P7oOmc-A/profile-displayphoto-shrink_200_200/0/1649869487093?e=1663804800&v=beta&t=uWz564_4t62Sr23sPxEwsDVOFKrVslAo_y8DZ21J850)</a>
 
 ### ANSHUMAAN (MASTER OF CSS):
 1. Templating the marketing page
@@ -56,6 +59,9 @@ ANSHUMAAN  DIVAYA  and RAMA worked on the user interface - from conception and p
 3. Styling and logic for the topics page
 4. Match the styling and flow of the original marketing design and duplicate onto the topics page
 5. Reactive styling based on functionality requirements
+
+
+
 <a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/C5603AQEzLFT7uRIpXA/profile-displayphoto-shrink_200_200/0/1658343567646?e=1663804800&v=beta&t=-qhm9Uluyb8hc9ydSQDGiQvwUN-RK67juhGjj3hjeGs)</a>
 ### DIVYA (FASTEST WORK) :
 1. Learn and integrate Google and Facebook log-in functionality
@@ -63,15 +69,24 @@ ANSHUMAAN  DIVAYA  and RAMA worked on the user interface - from conception and p
 3. Create persistence through Firebase for the progress users have made
 4. Determine which variables to save to Firebase and connect this with user profile
 5. Integrate persistence logic into the visual counterpart
+
+
+
 <a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/D4D35AQF_dwDIEH8IcQ/profile-framedphoto-shrink_200_200/0/1657526981427?e=1659189600&v=beta&t=A5th1IKH_aeoq4M1fIOJkps4upsBTY9FAoxmRRi-xOQ)</a>
+
+
 ### GAJRAJ (GUIDER OF PROJECT):
 1. Learn and integrate the YouTube and They Said So quotes APIs
 2. Dynamically populate cards and content onto the topics page
 3. Show user progress on page and dynamically demonstrate which tasks have already been completed
 4. Determine sequence of logic for completing task and preventing users for readdressing same tasks
 5. Integrate content population logic with the user interface
+
+
+
 <a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/C4D03AQG_EalW1s9TCw/profile-displayphoto-shrink_200_200/0/1654348176476?e=1663804800&v=beta&t=DDqHam2BiljrtyxFht832HHYOYuKNbDcnP1SK-0DVU8)</a>
-### RAMA (DEDICAED-PERSON) :
+
+### RAMA (DEDICATED-PERSON) :
 1. Learn and integrate Google and Facebook log-in functionality
 2. Integrate log-ins with the user interface
 3. Create persistence through Firebase for the progress users have made
