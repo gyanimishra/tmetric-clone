@@ -10,7 +10,7 @@ We have tried our best to make a fully-functional clone of Tmetric.com website t
 
 ### Live Demo - 
 
-https://drive.google.com/file/d/1GhOChXcSaAg6LMwzOlvP_db5pskVzU_S/view?usp=sharing
+https://drive.google.com/file/d/1yknkg6BjOLwVjFPuGnnIrvjUSE2-HecF/view?usp=sharing
 <a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://lh6.googleusercontent.com/ubT3lV7WD8g8W_WGJM2T8WS7-gVila59iVrxVCcbF55e7a9-lhE8Tqho52egWWXotSpBE5dNWTSfjANqxKvhfpP_uW938asNWRFwuvr5wdTmswXmEqstzyDWKILPVb1mQUn4tILJ)</a>
 
 
