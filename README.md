@@ -5,12 +5,16 @@
 
 ## Description
 
+
+TMetric is time tracking software operated by TMetric team, headquartered in Prague, Czech Republic, that offers time tracking service for freelancers and small business owners who want to optimize their business processes and increase personal productivity.
+
+
 We have tried our best to make a fully-functional clone of Tmetric.com website that provides a minimal user experience where users can roam around and Assigned  their desired projects. 
-### Quick Preview -https://anthropology-clone-gyan.netlify.app/
+### Quick Preview -https://tmetric-clone.netlify.app//
 
 ### Live Demo - 
 
-https://drive.google.com/file/d/1GhOChXcSaAg6LMwzOlvP_db5pskVzU_S/view?usp=sharing
+https://drive.google.com/file/d/1sxJEpfQxrvV9uOzHFZwx0HOEVU58AMlS/view?usp=sharing
 <a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://lh6.googleusercontent.com/ubT3lV7WD8g8W_WGJM2T8WS7-gVila59iVrxVCcbF55e7a9-lhE8Tqho52egWWXotSpBE5dNWTSfjANqxKvhfpP_uW938asNWRFwuvr5wdTmswXmEqstzyDWKILPVb1mQUn4tILJ)</a>
 
 
