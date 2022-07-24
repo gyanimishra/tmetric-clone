@@ -9,6 +9,7 @@ import Project from "./Project";
 import { get_projects } from "../redux/project/action";
 import { useSelector ,useDispatch} from "react-redux";
 import Loader from "./Loader";
+import SideBar from "./SideBar";
 
 const ProjectBody = () => {
   const [options, setOptions] = useState(false);
@@ -47,6 +48,8 @@ if(isLoading){
 }
 
   return (
+    <>
+    <SideBar/>
     <div className={styles.main_container}>
       <div className={styles.container}>
         <div className={styles.project_title}>
@@ -138,16 +141,17 @@ if(isLoading){
           </div>
           {newArray?.map((el, index) => (
             <Project
-              key={index}
+            key={index}
               {...el}
               options={options}
               setOptions={setOptions}
               index={index}
-            />
+              />
           ))}
         </div>
       </div>
     </div>
+              </>
   );
 };
 

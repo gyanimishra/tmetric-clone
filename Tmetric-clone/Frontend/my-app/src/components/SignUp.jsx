@@ -246,7 +246,7 @@ const checkNum = (el) => {
 
                 <div className={style.signupadsechrunder}>
                     <p>Alraedy Have a account?</p>
-                    <Link  to="/Blog">
+                    <Link  to="/login">
                     <p  style={{color:"blue"}}>Log In</p></Link>
                 </div>
 
