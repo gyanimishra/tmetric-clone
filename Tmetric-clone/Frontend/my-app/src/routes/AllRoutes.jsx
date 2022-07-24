@@ -8,6 +8,7 @@ import ProjectBody from "../Components/ProjectBody";
 import NewProjectForm from "../Components/NewProjectForm";
 import Price from "../Components/Price"
 import ProjectUpdate from "../Components/ProjectUpdate"
+import Login from "../Components/LogIn"
 
 const AllRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const AllRoutes = () => {
       <Route path="/pricing" element={<Price />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 };

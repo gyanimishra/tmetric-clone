@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import { BiChevronDown } from 'react-icons/bi'
 import { BsGlobe2 } from 'react-icons/bs'
 import { DropdownWhyTMatric } from './DropdownWhyTMatric';
@@ -31,8 +31,8 @@ export const Navbar = () => {
             <div className='NavbarPageName'><Link to={'/blog'}>Blog</Link> </div>
 
             <div className="NavbarLoginSignup">
-                <Link to="/">Log In</Link>
-                <button>Sign Up</button>
+                <Link to="/login">Log In</Link>
+                <button onClick={()=>navigate("/signup")}>Sign Up</button>
             </div>
             {whyTMetricDropdown && <DropdownWhyTMatric />}
             {appsDropdown && <DropdownApp />}
