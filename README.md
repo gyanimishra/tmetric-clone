@@ -103,6 +103,10 @@ ANSHUMAAN  DIVAYA  and RAMA worked on the user interface - from conception and p
    <img src="https://blog.logrocket.com/wp-content/uploads/2021/04/optimize-react-native-performance.png" width="100" height="100">
    <img src="https://chriscourses.com/img/blog/redux/redux.jpg" width="100" height="100">
    <img src="https://www.ictdemy.com/images/1/css/bootstrap/bootstrap-stack.png" width="100" height="100">
+   <img src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png" width="100" height="100">
+    <img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" width="100" height="100">
+       <img src="https://www.brainvire.com/wp/wp-content/uploads/2016/05/express-js-an-ideal-node-js-framework-to-develop-enterprise-web-applications.jpg" width="100" height="100">
+          <img src="https://cdn-media-1.freecodecamp.org/images/1*gqHgCNubMncv7EwWNdArGQ.png" width="100" height="100">
  </p>
 
 ## Functionalities associated with this website
