@@ -5,10 +5,17 @@ import styles from "../styles/projectbody.module.css";
 
 const Loader = () => {
   return (
-    <div className={styles.loader} >
-      <div class="d-flex justify-content-center" style={{width:"5rem",height:"5rem"}}>
-        <div class="spinner-border" role="status" style={{width:"5rem",height:"5rem"}}>
-          <span class="visually-hidden">Loading...</span>
+    <div className={styles.loader}>
+      <div
+        className="d-flex justify-content-center"
+        style={{ width: "5rem", height: "5rem" }}
+      >
+        <div
+          className="spinner-border"
+          role="status"
+          style={{ width: "5rem", height: "5rem" }}
+        >
+          <span className="visually-hidden">Loading...</span>
         </div>
       </div>
     </div>
