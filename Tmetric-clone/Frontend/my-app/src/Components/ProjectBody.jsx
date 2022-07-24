@@ -43,7 +43,9 @@ const ProjectBody = () => {
   }, [dispatch]);
 if(isLoading){
    return <Loader/>
+   
 }
+
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
