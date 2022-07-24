@@ -4,6 +4,7 @@ import "./Price.css";
 import { TiTick } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
 import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
 
 const data = [
   {
@@ -510,7 +511,7 @@ const Price = () => {
         <button className="btn1">Start Free Trial</button>
       </div>
       </div>
-       
+       <Footer />
     </>
   );
 };
