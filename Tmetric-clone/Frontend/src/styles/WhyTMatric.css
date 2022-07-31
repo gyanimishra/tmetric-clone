@@ -1,0 +1,82 @@
+.WhyTMatricMainDiv {
+    display: flex;
+    border-top: solid 1px rgba(158, 158, 158, 0.402);
+    padding: 39px 60px 46px;
+    /* margin: 0px 2.47vw; */
+    justify-content: space-between;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      background-color: white;
+  }
+  .WhyTMatricMainDiv > :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    width: 37%;
+    box-sizing: border-box;
+  }
+  .WhyTMatricMainDiv > :nth-child(1) > :nth-child(1) {
+    width: 205px;
+  }
+  .WhyTMatricHeading {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #a4a9b2;
+    font-weight: 500;
+  }
+  .WhyTMatricHeading ~ div {
+    margin-bottom: 16px;
+  }
+  .WhyTMatricTitle {
+    color: #212529;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  .WhyTMatricText {
+    font-weight: 500;
+    color: #4c5158;
+    font-size: 16px;
+  }
+  .WhyTMatricGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .WhyTMatricGrid > div > :nth-child(1) {
+    display: flex;
+    margin-bottom: 16px;
+    padding: 0px 40px 0px 0px;
+  }
+  .WhyTMatricIcon {
+    width: 32px;
+    height: 32px;
+    color: #e4e5e7;
+    font-size: 50px;
+    margin-right: 16px;
+  }
+  .WhyTMatricMainDiv > :nth-child(2) {
+    width: 59%;
+    box-sizing: border-box;
+  }
+  .WhyTMatricAllFeatures {
+    display: flex;
+    align-items: center;
+    margin-left: 52px;
+    color: #3070f0;
+  }
+  .WhyTMatricAllFeatures > :nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .WhyTMatricAllFeatures > :nth-child(2) {
+    font-size: 30px;
+  }
+  .WhyTMatricSmallDiv {
+    cursor: pointer;
+  }
+  .WhyTMatricSmallDiv:hover .WhyTMatricTitle {
+    transition-duration: 0.4s;
+    color: #3070f0;
+  }

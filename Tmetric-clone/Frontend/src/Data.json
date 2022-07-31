@@ -1,0 +1,245 @@
+{
+    "blog": [
+      {
+        "id": 1,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/06/calendarintegrations.png",
+        "heading": " https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "T0p 10 Google Calendar Integration of 2022",
+        "description": "Why Google Calendar Integrations are your sure stress-free way to stay on track and elevate your calendar management to a new level? And what are the top integrations that you will benefit from?",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jul 19, 2022 • 7 min read"
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://images.unsplash.com/photo-1573164713712-03790a178651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIwfHx0ZWFtJTIwc29mdHdhcmUlMjB8ZW58MHx8fHwxNjUyOTMzMDA3&ixlib=rb-1.2.1&q=80&w=2000",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Atlassian Softwares For Professional Teams",
+        "description": "Atlassian is the world's leading provider of software for professional teams, with more than 150,000 customers delivering its service to 170000+ companies around the globe. Read on to know what top Atlassian software your professional team can use to automate workflow and increase productivity.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jul 6, 2022 • 8 min read"
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w2000/2022/06/productivitytools-banner.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Productivity Tools and Tips to Help You Get More Done",
+        "description": "In this post, you will discover the best productivity tools and tips that will enable you to get more done without sacrificing work-life balance.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jul 6, 2022 • 8 min read"
+      },
+      {
+        "id": 4,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/PTO-banner.jpg",
+        "heading": "https://blog.tmetric.com/team-leave-and-pto-tracker/",
+        "para": "TMetric. Team Leave and PTO Tracker",
+        "description": "Gain insight into PTO management with good time-off tracking software. Learn how TMetric can help your company manage PTO policy, track employees’ leaves, and the most important, save time and money on time-off calculations.",
+        "image": "https://blog.tmetric.com/content/images/2021/03/Dbrf-2222.jpg",
+        "name": "Victoria Avdeeva",
+        "date": "Jun 27, 2022 • 7 min read"
+      },
+      {
+        "id": 5,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/Guest-2.png",
+        "heading": "https://blog.tmetric.com/team-leave-and-pto-tracker/",
+        "para": "10 faszinierende Zeiterfassung Apps, die Ihrem Unternehmen zum Wachstum verhelfen",
+        "description": "Online-Zeiterfassungsdienste gehören zu den Instrumenten, die erheblich zur Skalierbarkeit des Unternehmens beitragen können. Lesen Sie weiter, um zu erfahren, welche 10 Zeiterfassungs-Apps bei der Entwicklung von Wachstumsstrategien sicher hilfreich sind und warum.",
+        "image": "https://blog.tmetric.com/content/images/2021/03/Dbrf-2222.jpg",
+        "name": "Victoria Avdeeva",
+        "date": "Jun 24, 2022 • 6 min read"
+      },
+      {
+        "id": 6,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/Untitled-38-copy------.png",
+        "heading": "https://blog.tmetric.com/team-leave-and-pto-tracker/",
+        "para": "Step by Step Jira Time Tracking",
+        "description": "Time tracking has been around for a long time, primarily because of the data it provides and its aim to optimize the workflow. That's why it's time you picked up the best time tracking software like TMetric for your workplace when using JIRA.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jun 8, 2022 • 5 min read"
+      },
+      {
+        "id": 7,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/06/Untitled_Artwork-2.jpg",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "5 Incredible Task Management Tactics You’ll Wish You Discovered Sooner",
+        "description": "Task management is a skill that has many useful applications across any professional group or industry. Here are best and proven tactics for managing your tasks that minimize stress at work and optimize time and resource consumption.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jun 3, 2022 • 6 min read"
+      },
+      {
+        "id": 8,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/05/Team_Dashboard_banner-1.jpg",
+        "heading": "https://blog.tmetric.com/tag/tmetric-updates/",
+        "para": "New Team Dashboard for Better Employee Management",
+        "description": "In this release, we are introducing a new Team Dashboard that will help you easily track your team's work. Now, you can manage your team more conveniently and understand how each of its members is doing.",
+        "image": "https://blog.tmetric.com/content/images/2021/03/Dbrf-2222.jpg",
+        "name": "Victoria Avdeeva",
+        "date": "May  30, 2022 • 1 min read"
+      },
+      {
+        "id": 9,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/1230-short.png",
+        "heading": "https://blog.tmetric.com/best-12-virtual-assistant-tools-and-services/",
+        "para": "Fast-track Your Productivity With Best 12 Virtual Assistant Tools And Services of 2022",
+        "description": "To handle multiple projects, stabilize workload and avoid burnout, one way to do this is by using virtual assistant services. Read on to know what 12 virtual assistant tools and services make the top and bring your instant empowerment.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 26, 2022 • 7 min read"
+      },
+      {
+        "id": 10,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/Untitled_Artwork-shirt.png",
+        "heading": "https://blog.tmetric.com/25-marketing-productivity-tools-worth-trying-2/",
+        "para": "25 Marketing Productivity Tools Worth Trying",
+        "description": "Marketing productivity relates to achieving the main marketing goals while maintaining a work-life balance. Which marketing automation tools are there to help? We chose 25, and you will like them.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 18, 2022 • 13 min read"
+      },
+      {
+        "id": 11,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/06/------------------.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Why Brainstorming Templates Help You Succeed",
+        "description": "If you are skeptical about brainstorming, you probably need to try brainstorming templates. Aside from the facilitation of the planning stage, they boost motivation in teamwork and bring time saving solutions.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 10, 2022 • 9 min read"
+      },
+      {
+        "id": 12,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2020/07/german-post.png",
+        "heading": "https://blog.tmetric.com/die-10-besten-stundenzettel-vorlagen-fur-arbeitszeiterfassung/",
+        "para": "Die 10 besten Stundenzettel-Vorlagen für Arbeitszeiterfassung",
+        "description": "Die Verwendung von Stundenzetteln ist eine gängige Lösung für Unternehmen, um Mitarbeiter zu motivieren und vollständige Rechenschaft abzulegen. Hier empfehlen wir 10 Stundenzettel-Vorlagen, die Sie sofort herunterladen können.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/unnamed-ajnj.jpg",
+        "name": "Marina Timchenko",
+        "date": "May 28, 2022 • 7 min read"
+      },
+      {
+        "id": 13,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/03/Project-Management-Courses.PNG",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "7 Best Free Project Management Courses of 2022",
+        "description": "Read on to learn how project management online courses can help and what top 7 free PM courses are there to take in 2022.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 28, 2022 • 8 min read"
+      },
+      {
+        "id": 14,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/03/IMG_2115.jpeg",
+        "heading": "https://blog.tmetric.com/tag/tmetric-updates/",
+        "para": "TMetric has won new awards in time tracking category!",
+        "description": "TMetric has won new awards in time tracking category!",
+        "image": "https://blog.tmetric.com/content/images/2021/11/IMG_9261--1-.jpg",
+        "name": "Kate Gondarovskaya",
+        "date": "Mar 16,2022 • 2 min read"
+      },
+      {
+        "id": 15,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2020/04/blog-6.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "How To Prioritize Your Tasks When Everything Is Important",
+        "description": "The art of prioritization is a skill that’s a valuable asset for any employee, whether they are corporate, freelance or self-employed. Read on some of the basics of priorities and time management that you can use to release some of the pressure you’re feeling next time you have dozens of tasks.",
+        "image": "https://blog.tmetric.com/content/images/2019/01/ava2-1.png",
+        "name": "Denis Yanov",
+        "date": "Feb 15,2022  • 4 min read"
+      },
+      {
+        "id": 16,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/1230-short.png",
+        "heading": "https://blog.tmetric.com/best-12-virtual-assistant-tools-and-services/",
+        "para": "Fast-track Your Productivity With Best 12 Virtual Assistant Tools And Services of 2022",
+        "description": "To handle multiple projects, stabilize workload and avoid burnout, one way to do this is by using virtual assistant services. Read on to know what 12 virtual assistant tools and services make the top and bring your instant empowerment.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 26, 2022 • 7 min read"
+      },
+      {
+        "id": 17,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2022/06/Untitled_Artwork-shirt.png",
+        "heading": "https://blog.tmetric.com/25-marketing-productivity-tools-worth-trying-2/",
+        "para": "25 Marketing Productivity Tools Worth Trying",
+        "description": "Marketing productivity relates to achieving the main marketing goals while maintaining a work-life balance. Which marketing automation tools are there to help? We chose 25, and you will like them.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 18, 2022 • 13 min read"
+      },
+      {
+        "id": 18,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/06/------------------.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Why Brainstorming Templates Help You Succeed",
+        "description": "If you are skeptical about brainstorming, you probably need to try brainstorming templates. Aside from the facilitation of the planning stage, they boost motivation in teamwork and bring time saving solutions.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 10, 2022 • 9 min read"
+      },
+      {
+        "id": 19,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w600/2020/07/german-post.png",
+        "heading": "https://blog.tmetric.com/die-10-besten-stundenzettel-vorlagen-fur-arbeitszeiterfassung/",
+        "para": "Die 10 besten Stundenzettel-Vorlagen für Arbeitszeiterfassung",
+        "description": "Die Verwendung von Stundenzetteln ist eine gängige Lösung für Unternehmen, um Mitarbeiter zu motivieren und vollständige Rechenschaft abzulegen. Hier empfehlen wir 10 Stundenzettel-Vorlagen, die Sie sofort herunterladen können.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/unnamed-ajnj.jpg",
+        "name": "Marina Timchenko",
+        "date": "May 28, 2022 • 7 min read"
+      },
+      {
+        "id": 20,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/03/Project-Management-Courses.PNG",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "7 Best Free Project Management Courses of 2022",
+        "description": "Read on to learn how project management online courses can help and what top 7 free PM courses are there to take in 2022.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "May 28, 2022 • 8 min read"
+      },
+      {
+        "id": 21,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2022/03/IMG_2115.jpeg",
+        "heading": "https://blog.tmetric.com/tag/tmetric-updates/",
+        "para": "TMetric has won new awards in time tracking category!",
+        "description": "TMetric has won new awards in time tracking category!",
+        "image": "https://blog.tmetric.com/content/images/2021/11/IMG_9261--1-.jpg",
+        "name": "Kate Gondarovskaya",
+        "date": "Mar 16,2022 • 2 min read"
+      },
+      {
+        "id": 22,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w1000/2020/04/blog-6.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "How To Prioritize Your Tasks When Everything Is Important",
+        "description": "The art of prioritization is a skill that’s a valuable asset for any employee, whether they are corporate, freelance or self-employed. Read on some of the basics of priorities and time management that you can use to release some of the pressure you’re feeling next time you have dozens of tasks.",
+        "image": "https://blog.tmetric.com/content/images/2019/01/ava2-1.png",
+        "name": "Denis Yanov",
+        "date": "Feb 15,2022  • 4 min read"
+      },
+      {
+        "id": 23,
+        "imgUrl": "https://images.unsplash.com/photo-1573164713712-03790a178651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDIwfHx0ZWFtJTIwc29mdHdhcmUlMjB8ZW58MHx8fHwxNjUyOTMzMDA3&ixlib=rb-1.2.1&q=80&w=2000",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Atlassian Softwares For Professional Teams",
+        "description": "Atlassian is the world's leading provider of software for professional teams, with more than 150,000 customers delivering its service to 170000+ companies around the globe. Read on to know what top Atlassian software your professional team can use to automate workflow and increase productivity.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jul 6, 2022 • 8 min read"
+      },
+      {
+        "id": 24,
+        "imgUrl": "https://blog.tmetric.com/content/images/size/w2000/2022/06/productivitytools-banner.png",
+        "heading": "https://blog.tmetric.com/tag/productivity-hacks/",
+        "para": "Productivity Tools and Tips to Help You Get More Done",
+        "description": "In this post, you will discover the best productivity tools and tips that will enable you to get more done without sacrificing work-life balance.",
+        "image": "https://blog.tmetric.com/content/images/2021/11/-----1.png",
+        "name": "Alla Chernets",
+        "date": "Jul 6, 2022 • 8 min read"
+      }
+      
+    ]
+  }

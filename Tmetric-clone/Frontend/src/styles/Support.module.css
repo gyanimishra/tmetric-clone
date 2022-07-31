@@ -1,0 +1,219 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.supportmain {
+    width: 100%;
+    height: fit-content;
+}
+
+.supportnav {
+    background-color: #fff2cc;
+    width: 100%;
+    height: 376px;
+}
+
+.supportheading {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 144px 0px 0px;
+    text-align: center;
+}
+
+.supportnavh1 {
+    margin: 0 0 2.1rem;
+    font: bold 3.75rem/1.066 ObjectivityBold, sans-serif;
+    letter-spacing: -1px;
+}
+
+.supportsearch {
+    width: 776px;
+    height: 48px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    margin: auto;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.supportsearchbtn {
+    width: 50px;
+    height: 40px;
+    color: grey;
+}
+
+.supportsearchinput {
+    width: 720px;
+    height: 43px;
+    margin-right: 30px;
+    border: none;
+    font-size: 21px;
+    color: rgba(128, 128, 128, 0.096);
+}
+
+.supportvideosection {
+    width: 100%;
+    height: fit-content;
+}
+
+.supportvideosectionh2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.supportvideosectionvideo {
+    width: 95%;
+    height: fit-content;
+    margin-top: 55px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.supportvideosectionvideo1 {
+    width: 300.25px;
+    height: 170.95px;
+}
+
+.supportvideosectionvideo1>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.supportvideosectioncontent {
+    color: #3070f0;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.supportvideosectioncontent>a {
+    text-decoration: none;
+    color: #3070f0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.supportvideosectioncontent>a>span {
+    color: #3070f0;
+    margin-left: 10px;
+}
+
+.supportuserguidemain {
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 100px;
+    border-top: 1px solid rgba(128, 128, 128, 0.466);
+}
+
+.supportuserguide {
+    width: 95%;
+    height: fit-content;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    justify-content: space-between;
+    row-gap: 50px;
+    padding-top: 60px;
+}
+
+.supportuserguide1 {
+    display: flex;
+    gap: 16px;
+}
+
+.supportuserguide1h2 {
+    color: #3070f0;
+}
+
+.supportuserguide1p {
+    color: #212529;
+    font: 16px, sans-serif;
+    margin-top: 20px;
+}
+
+.hr {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fandqmain {
+    background-color: #f8f9fa;
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.fandqmain1 {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+    padding-top: 70px;
+}
+
+.fandqmain1div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.fandqmain1divli>ul>li {
+    color: #3070f0;
+    text-decoration: none;
+    list-style: none;
+    padding: 13px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contactmain {
+    width: 100%;
+    height: 350px;
+    background-color: #2542b8;
+    color: white;
+
+    margin-top: 50px;
+}
+
+.contactmainh1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contactbtndiv {
+    margin-left: 44%;
+    padding-top: 48px;
+}
+
+.contactbtn {
+    border: 1px solid white;
+    background-color: #2542b8;
+    color: white;
+    width: 138px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contactbtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #2542b8;
+    transition-duration: 0ms;
+}

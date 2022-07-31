@@ -1,0 +1,76 @@
+.FooterMainDiv {
+    font-family: sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ebedf0;
+    margin: auto;
+  }
+  .FooterContainer1 {
+    padding: 46.4px 60px 0px 60px;
+    display: flex;
+  }
+  .FooterMainDiv a {
+    text-decoration: none;
+    color: #212529;
+  }
+  .FooterMainDiv a:hover {
+    text-decoration: underline;
+  }
+  .FooterMainDiv > :nth-child(1) > :nth-child(1) {
+    width: 12.7vw;
+    margin-bottom: 25px;
+    padding-right: 20px;
+  }
+  .FooterMainDiv > :nth-child(1) > :nth-child(2) {
+    padding: 0px 20px;
+    margin: 0px 0px 40px 7.9vw;
+  }
+  .FooterMainDiv > div {
+    /* border: solid; */
+  }
+  .FooterDiv {
+    width: 12.7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .FooterDiv > span {
+    color: #3a3e42;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .FooterDivCommonMarginPadding {
+    margin-bottom: 40px;
+    padding: 0px 20px;
+  }
+  .FooterList {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    align-items: center;
+    color: #212529;
+    font-weight: 400;
+  }
+  .FooterIcon {
+    color: #777e85;
+    font-size: 24px;
+  }
+  .FooterContainer2 {
+    border-top: solid 1px rgba(128, 128, 128, 0.281);
+    padding: 18px 0px;
+  }
+  .FooterContainer2 > :nth-child(1) {
+    /* border-top: solid; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 60px;
+    position: relative;
+  }
+  .FooterContainer2 span {
+    position: absolute;
+    left: 60px;
+    font-weight: 500;
+  }
+  .FooterIconMargin {
+    margin-right: 16px;
+  }

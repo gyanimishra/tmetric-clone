@@ -1,0 +1,153 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.blognavbar {
+    width: 100%;
+    height: 360px;
+
+}
+
+.blognavbar>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.blogadpart {
+    width: 90%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.blogadpartimg {
+    width: 65%;
+    height: 100%;
+}
+
+.blogadpartimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.blogadpartdetail {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.blogadpartdetail>h6 {
+    color: cornflowerblue;
+}
+
+.blogadpartdetail>p {
+    color: gray;
+    margin-top: 25px;
+}
+
+.blogadpartprofile {
+    width: 170px;
+    height: 50px;
+    margin-left: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.blogadpartprofileimg {
+    width: 50px;
+    height: 50px;
+
+}
+
+.blogadpartprofileimg>img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.blogadpartallprofilemap {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+
+.blogadpartallprofilecardimg {
+    width: 100%;
+    height: 240px;
+    cursor: pointer;
+}
+
+.blogadpartallprofilecardimg>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+
+}
+
+.blogadpartallprofilecarddetail {
+    margin-top: 20px;
+
+}
+
+.blogadpartallprofilecarddetail>h6 {
+    color: cornflowerblue;
+    cursor: pointer;
+
+}
+
+.blogadpartallprofilecarddetail>p {
+    color: gray;
+    margin-top: 20px;
+    line-height: 140%;
+    cursor: pointer;
+
+}
+
+
+/* ////// */
+.blogadpartprofileblogcart {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 15px;
+    margin-top: 26px;
+}
+
+.blogadpartprofileimgblogcart {
+    width: 40px;
+    height: 40px;
+
+}
+
+.blogadpartprofileimgblogcart>img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.blogadpartprofiledate {
+
+    color: gray;
+    font-size: smaller;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
