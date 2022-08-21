@@ -74,7 +74,7 @@ ANSHUMAAN, DIVYA  and RAMA worked on the user interface - from conception and pl
 
 
 
-<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/D4D35AQF_dwDIEH8IcQ/profile-framedphoto-shrink_200_200/0/1657526981427?e=1659189600&v=beta&t=A5th1IKH_aeoq4M1fIOJkps4upsBTY9FAoxmRRi-xOQ)</a>
+<a href="https://www.linkedin.com/in/gajrajshekhawat/">![Logo](https://media-exp1.licdn.com/dms/image/C5603AQFKyQrvTPJ62g/profile-displayphoto-shrink_200_200/0/1661079185765?e=1666828800&v=beta&t=bprEwSh6AAM8H4O9x5HLsnodBnZ4__uvPcgCFA-AKnQ)</a>
 
 
 ### GAJRAJ (GUIDER OF PROJECT):
