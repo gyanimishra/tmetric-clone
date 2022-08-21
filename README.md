@@ -39,7 +39,7 @@ Using JavaScript, jQuery, front-end styling, the YouTube and They Said So APIs, 
 
 ## Team Effort
 
-ANSHUMAAN  DIVAYA  and RAMA worked on the user interface - from conception and planning to coding it out. GAJRAJ worked on the APIs and corresponding functionality to the topics page design. GYAN PRAKASH worked on Firebase, and the sign-ups through Google and Facebook. 
+ANSHUMAAN, DIVYA  and RAMA worked on the user interface - from conception and planning to coding it out. GAJRAJ worked on the APIs and corresponding functionality to the topics page design. GYAN PRAKASH worked on Firebase, and the sign-ups through Google and Facebook. 
 
 ## Individual Responsibility
 
