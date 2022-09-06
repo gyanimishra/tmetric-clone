@@ -64,7 +64,7 @@ ANSHUMAAN, DIVYA  and RAMA worked on the user interface - from conception and pl
 
 
 
-<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/C5603AQEzLFT7uRIpXA/profile-displayphoto-shrink_200_200/0/1658343567646?e=1663804800&v=beta&t=-qhm9Uluyb8hc9ydSQDGiQvwUN-RK67juhGjj3hjeGs)</a>
+<a href="https://app.netlify.com/teams/gyan12082000/overview">![Logo](https://media-exp1.licdn.com/dms/image/D4D03AQFQhB4sXCf63g/profile-displayphoto-shrink_400_400/0/1662292417424?e=1668038400&v=beta&t=wO04P7HOmP7GcNrSXMr6GG8M1zN6Km4Wm5TSAsoor-U)</a>
 ### DIVYA (FASTEST WORK) :
 1. Learn and integrate Google and Facebook log-in functionality
 2. Integrate log-ins with the user interface
